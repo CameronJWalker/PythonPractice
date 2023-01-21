@@ -5,7 +5,7 @@
 # Keep track of how many guesses the user has taken, and when the game ends, print this out.
 import random
 
-randInt = (random.randint(1,15))
+randInt = (random.randint(1,9))
 guess = 0
 count = 0
 while guess != randInt:
