@@ -8,10 +8,10 @@
 #   Michele is name My
 # shown back to me.
 def reverseWord(x):
-    y = []
-    y.append(x.split()[::-1])
+    y = ' '.join(x.split()[::-1])
     return y
 
 
 a = input("Type a sentence: ")
 print(reverseWord(a))
+
